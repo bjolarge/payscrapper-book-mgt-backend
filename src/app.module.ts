@@ -8,7 +8,6 @@ import * as Joi from 'joi';
 import { ConfigModule } from '@nestjs/config';
 import { ConfigService } from '@nestjs/config';
 import { UsersModule } from './user/user.module';
-import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { BookModule } from './book/book.module';
 
@@ -83,7 +82,6 @@ import { BookModule } from './book/book.module';
     }),
     LessonModule,
    UsersModule,
-    PrismaModule,
    AuthModule,
    BookModule
   ],
