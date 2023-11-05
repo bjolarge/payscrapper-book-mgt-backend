@@ -52,7 +52,6 @@
     "typeorm": "^0.3.17",
     "uuid": "^9.0.1"
   },
- 
   "jest": {
     "moduleFileExtensions": [
       "js",
