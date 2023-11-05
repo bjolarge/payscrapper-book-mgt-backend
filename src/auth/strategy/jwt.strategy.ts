@@ -16,7 +16,8 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       ignoreExpiration: false,
       // secretOrKey: `Todo-Protect Me`,
       // secretOrKey: process.env.JWT_SECRET,
-      secretOrKey: configService.get('JWT_SECRET'),
+      secretOrKey: configService.get('33cfjw2sdkswaajeFqcj'),
+      // secretOrKey: configService.get('JWT_SECRET'),
     });
   }
 
